@@ -6,7 +6,7 @@ It shows only the dynamics of creating tables related to this event
 process descriptors).
 
 ## Program script
-= implicit opening of standard input file;
+- implicit opening of standard input file;
 - implicit opening of the standard output file;
 - implicit opening of the standard error output file;
 - opening the first file intended for the user;
