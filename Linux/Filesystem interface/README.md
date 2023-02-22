@@ -5,7 +5,7 @@ It shows only the dynamics of creating tables related to this event
 (table of file descriptors, table of open files, array of file
 process descriptors).
 
-##Program script
+## Program script
 = implicit opening of standard input file;
 - implicit opening of the standard output file;
 - implicit opening of the standard error output file;
