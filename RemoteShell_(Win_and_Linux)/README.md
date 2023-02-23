@@ -2,12 +2,11 @@
 Universal for Win and Linux.
 
 ## Description
-Програма розроблялась в навчальних цілях та тестувалась тільки на особисстих пристроях.
-У репозиторії знаходяться два файли -- client.py та server.py. Відповідно client повинен запускатися на комп'ютері, над яким потрібно здійснити керування, а seerver на ком'ютері з якого воно буде відбуватися.
-Для роботи програми у файлі client.py необхідно вказати адресу та порт сервера, а у файлі server.py вказати адресу (зазвичай localhost) та порт, що прослуховуються.
+The program was developed for educational purposes and tested only on personal devices.
+There are two files in the repository -- client.py and server.py. Accordingly, the client must be launched on the computer over which it is necessary to perform control, and the seerver on the computer from which it will take place.
+For the program to work, you need to specify the address and port of the server in the client.py file, and specify the address (usually localhost) and the listening port in the server.py file.
 ```python
-host =  <Listening (or server) IP>
-port =  <Listening (or server) port>
+host = <Listening (or server) IP>
+port = <Listening (or server) port>
 ```
-Далі запускаєте client.py на комп'ютері клієнта та server.py на комп'ютері сервера і відбувається підключення, що створює віддалене керування.
-
+Next, you run client.py on the client's computer and server.py on the server's computer, and a connection occurs, which creates remote control.
